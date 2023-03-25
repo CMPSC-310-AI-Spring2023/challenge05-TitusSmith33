@@ -28,9 +28,10 @@ Dropout is the process of excluding certain nodes during the learning process at
 
 1.   Give 2-3 sentence explanation of how bidirectional RNNs are different from unidirectional RNNs.
 
+Firstly, bidirectional RNNs are an RNN that looks through the input in two directions, forward and backwards. Whereas unidirectional RNNs only process the data in one direction, with a single hidden layer, and can only past context. Bidirectional RNNs are better for things that you need future context for, such as speech recognition and natural language processing. Unidirectional RNNs are typically faster because they require less computation.
 
 ### Part 3: Add code
 
 1.   Include the code from "Recurrent Neural Networks (RNN) with Keras" guide that you ran (must show output) as a Google Colab notebook in your challenge 5 repository.
 
-TODO
+Added Colab
