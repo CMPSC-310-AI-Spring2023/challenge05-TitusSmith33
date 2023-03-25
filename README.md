@@ -13,14 +13,16 @@ Run through the guide at [RNN guide](https://www.tensorflow.org/guide/keras/rnn)
 
 1.   Give 1-2 sentence description of keras.
 
-TODO
+Keras is a library that provides Python interface needed for neural networks. It is a high level, deep learning API that makes implementing neural networks easy and efficient.
 
 2.   Give a short explanation of the following:
 
 - `Embedding`
 -  `Dropout` 
 
-TODO
+Embedding is what makes us be able to process and learn large inputs of text with few vectors. Embedding takes in large dimensions for inputs and shrinks them for the output.
+
+Dropout is the process of excluding certain nodes during the learning process at random. This ensures the program has no overfitting because it does not over rely on a specific unit.
 
 ### Part 2: Unidirectional vs Bidirectional
 
